@@ -1,0 +1,413 @@
+* {
+    box-sizing: border-box;
+}
+  
+  /* Add a gray background color with some padding */
+body {
+    font-family: Arial;
+    padding: 0px;
+    background: #cbeec8;
+    text-align: justify;
+    margin: 0px;
+}
+
+  /* Header/Blog Title */
+.header {
+    background-size: contain;
+	margin: 0;
+	width: 100%;
+}
+
+.blog-header{
+    width: 100%;
+}
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+.leftcolumn {   
+    float: left;
+    width: 50%;
+}
+
+.bio #profile{
+    border-radius: 50%;
+    padding: 10px 22px;
+    width: 73%;
+}
+
+.bio-p {
+    width:inherit;
+}
+
+.bio .hr-line{
+    margin-left: 1%;
+    margin-top: 2%;
+    width: 65%;
+}
+
+.bio h5{
+    font-size: 18px;
+    margin-top: 10px;
+}
+  
+  /* Right column */
+.rightcolumn {
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+}
+
+#popular-posts{
+    display: none;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+.leftcolumn .content-images{
+    padding: 5%;
+}
+
+.leftcolumn .logical, .leftcolumn .log-type {
+    width: 100%;
+}
+
+  /* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+  
+  /* Add a card effect for articles */
+.card {
+    background-color: mintcream;
+    padding: 25px;
+    margin: 25px;
+    
+}
+
+.card h1, h2, h3 {
+    color: #43D1AF;
+}
+
+.card h1, h2 {
+    font-size: 38px;
+}
+
+.bio-card {
+    width:100% !important;
+    margin: 0px !important;
+    margin-top: 25px !important;
+    padding: 20px !important;
+    padding-top: 5px !important;
+}
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#comment-form{
+    width: 50%;
+}
+
+.subscription-box {
+	padding: 20px;
+}
+
+.form-style-6{
+	font: 95% Arial, Helvetica, sans-serif;
+	max-width: 400px;
+	margin: 10px auto;
+	padding: 16px;
+	background: #F7F7F7;
+}
+.form-style-6 h1{
+	background: #43D1AF;
+	padding: 20px 0; 
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select 
+{
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+	box-shadow: 0 0 5px #43D1AF;
+	padding: 3%;
+	border: 1px solid #43D1AF;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: #43D1AF;
+	border-bottom: 2px solid #30C29E;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+	background: #2EBC99;
+}
+
+
+/* Footer */
+footer{	
+	bottom: 0;
+}
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+ 
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+.footer-distributed .footer-left{
+	width: 40%;
+}
+ 
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+ 
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+ 
+ 
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+ 
+.footer-distributed .footer-center{
+	width: 35%;
+}
+ 
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+ 
+.footer-distributed .footer-right{
+	width: 20%;
+}
+ 
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+ 
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+ 
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+ 
+
+#left-card{
+	width: 73%;
+}
+
+#right-card{
+	width: 25%;
+}
+
+#author{
+	margin: 0%;
+	margin-top: 5%;
+	text-align: center;
+	background-color: seagreen;
+}
+
+#author h1{
+	color: white;
+}
+
+.about-section{
+	padding: 20px;
+}
+
+.about-section .leftcolumn{
+	width: 50%;
+	padding:0% 10%;
+}
+
+.about-section .rightcolumn{
+	width: 50%;
+	padding: 0% 10%;
+} 
+
+.about-section .prof-link{
+	font-size: 15px;
+	text-decoration: none;
+	color: #5383d3;
+}
+
+
+@media (max-width: 880px) {
+ 
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	
+	}
+ 
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+ 
+}
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn, .about-section .rightcolumn, .about-section .leftcolumn, #right-card, #left-card {   
+        width: 100%;
+        padding: 0;
+	}
+}
+
